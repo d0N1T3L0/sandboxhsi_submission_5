@@ -76,7 +76,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Daftar Siswa',
+          'Daftar Siswa Sandbox HSI',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             color: Colors.white
