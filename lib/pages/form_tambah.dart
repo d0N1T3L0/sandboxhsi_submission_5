@@ -89,9 +89,9 @@ class _FormTambahSiswaState extends State<FormTambahSiswa> {
               const SizedBox(height: 20), //jarak antar kolom
               // kolom input umur
               SpinBox(
-                min: 0,
-                max: 100,
-                value: 0,
+                min: 10,
+                max: 50,
+                value: 10,
                 decoration: const InputDecoration(
                   labelText: 'Umur',
                   border: OutlineInputBorder(),
